@@ -1,4 +1,4 @@
-/* Global Fonts */
+/* Global rules */
 *,
 *::before,
 *::after{
@@ -314,7 +314,6 @@ a:focus, a:focus-visible{
         -webkit-box-shadow: none;
         box-shadow: none;
         justify-content: flex-end;
-        font-size: 1rem;     
     }
     .nav__item a{
         color: #fff
@@ -325,8 +324,8 @@ a:focus, a:focus-visible{
     .container{
         display: -ms-grid;
         display: grid;
-        -ms-grid-rows: 61vh auto;
-        grid-template-rows: 61vh auto;
+        -ms-grid-rows: 61vh 39vh;
+        grid-template-rows: 61vh 39vh;
     }
     .row{
         display: -ms-grid;
@@ -396,7 +395,7 @@ a:focus, a:focus-visible{
         padding: 24% 4.5rem ;
     }
     .about{
-        padding: 3rem
+        padding: 0 3rem
     } 
 }
 /* adding the animation  */
